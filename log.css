@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(i2.jpg);
+}
+.form{
+	background: whitesmoke;
+	border-radius: 6px;
+	max-width: 430px;
+	width: 100%;
+	padding: 30px;
+}
+header{
+	font-size: 28px;
+	font-weight: 600;
+	color: black;
+	text-align: center;
+}
+form{
+	margin-top: 30px;
+}
+.form .field{
+	position: relative;
+	height: 45px;
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 6px;
+}
+.field input,
+.field button{
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 6px;
+}
+.field input{
+	padding: 0 15px;
+	border: 1px solid gray;
+}
+.field button{
+	color: white;
+	background: blue;
+}
+button a{
+	color: white;
+}
+.form-link{
+	text-align: center;
+	margin-top: 10px;
+}
+.form-link,
+.form-link span a{
+	font-size: 14px;
+	font-weight: 400;
+}
+.form a{
+	text-decoration: none;
+}
+form a:hover{
+	background:none;
+}
+.line{
+	position: relative;
+	height: 1px;
+	width: 100%;
+	margin: 36px 0;
+	background-color: black;
+}
+.line::before{
+	content: 'or';
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	color: black;
+	padding: 0 15px;
+}
+.media-options a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+a.facebook{
+	color: white;
+	background-color: blue;
+}
+a.facebook .facebook-icon{
+	height: 28px;
+	width: 28px;
+	color: blue;
+	font-size: 20px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.facebook-icon{
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+}
+a.google{
+	color: white;
+	background-color: blue;
+}
+a.google .google-icon{
+	height: 28px;
+	width: 28px;
+	color: red;
+	font-size: 20px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.google-icon{
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+}
