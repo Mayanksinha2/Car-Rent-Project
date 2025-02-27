@@ -1,1 +1,3 @@
 # Car-Rent-Project
+
+Car Rental Website, built with HTML and CSS, provides a seamless platform for users to book rental cars and schedule appointments. The homepage showcases available car models with images, pricing, and rental details. A user-friendly booking form allows customers to enter their details, select a car, choose rental dates, and confirm reservations. The website features a responsive design, ensuring smooth navigation across devices. CSS animations and styling enhance the visual appeal, making the booking process intuitive. Additional sections may include customer reviews, rental policies, and contact details. This static site can be extended with JavaScript or backend integration for real-time availability and online payments.
